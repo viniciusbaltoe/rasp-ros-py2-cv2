@@ -1,5 +1,8 @@
 # rasp-ros-py2-cv2
+## About
 
-This Dockerfile is running opencv-contrib with aruco's and numpy's library in ros:kinetic-ros-base-xenial.
+This is a Dockerfile for installing image management python libraries in a Docker container applied on a raspberry pi 3B architecture.
 
-The implementation of cv2 in this way was necessary because his normal implementation on the raspberry pi — using apt-get install cv2, opencv, opencv-contrib or whatnot — doesn't work.
+This Dockerfile is running opencv-contrib with aruco's and numpy's libraries in ros:kinetic-ros-base-xenial.
+
+This way of implementing cv2 was necessary because of the raspberry architecture's incompatibility of using some "apt-get install" commands compared to normal computers.
